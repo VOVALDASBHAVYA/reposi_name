@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function enter(){
+            document.getElementById("first").style.backgroundColor="blue";
+        }
+        function exit(){
+            document.getElementById("first").style.backgroundColor="green";
+        }
+    </script>
+</head>
+<body onfocus="enter()" onblur="exit()" id="first">
+    <h1>First attempt</h1>
+    <h1 class="hello"></h1>
+    <h1 id="hel"></h1>
+    <h2>second attempt</h2>
+    <h2 class="hi"></h2><!--how to acheive this statement by using shortcuts
+        ==> 1) declare h1 tag and enter content inb/w
+        2)if you type:"h1.hello" and press enter u can see this h1 tag with class
+    3)if you type:"h1#hell" and press enter u can see this h1 tag with id-->
+    <h2 id="bye"></h2>
+</body>
+</html>

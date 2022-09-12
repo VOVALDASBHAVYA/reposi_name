@@ -1,0 +1,34 @@
+<head>
+<body>
+<button onclick="myFunction()">Add Data</button>
+<script>
+let arr1=[]
+function myFunction(){
+let a=prompt("Enter your data","data")
+if(a!=null){
+arr1.push(a)
+}
+let arr2=[]
+arr1.forEach((data,index)=>{
+if(typeof(data)=="number"){
+arr2.push(" ");
+}else{
+arr2.push(data)
+
+}
+
+})
+document.write(arr2)
+console.log(arr2)
+}
+</script>
+</body>
+</html>
+
+//////////////////////////
+<!-- <table id="table" border="1" cellpadding="4">
+    <tr>
+<thead></thead>
+<tbody></tbody> 
+</tr>
+ </table> -->

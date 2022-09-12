@@ -1,0 +1,27 @@
+**********************HTML + CSS + JAVASCRIPT = HTML5***************************
+1)s also cross-platform, which means it doesn't care whether you're using a tablet or a smart phone, a net-book, notebook,
+ultra-book or a Smart TV if your browser supports HTML5, it should work flawlessly.
+2)Hyperlinks allow you to go from one page to another page. Anchor links allow you to go from one part of the same page to another.
+The anchor element is used to link to another page or to a certain part of the page if you use its ID.
+And The link tag defines a link between a document and an external resource.
+The link tag is used to link to external style sheets.
+3)<meta> tags always go inside the <head> element, and are typically used to specify character set, page description, keywords, author of the document, and viewport settings.
+Metadata will not be displayed on the page, but is machine parsable.
+Metadata is used by browsers (how to display content or reload page), search engines (keywords), and other web services.
+=>Web Storage	To store upto 5mb data on front end either as local or session storage. Local and Session Storage
+=>Microdata	To tell search engines our page structure.
+=>Drag n drop	New Events in javascript.
+4)The <input> tag specifies an input field where the user can enter data. The <input> element is the most important form element. 
+The <input> element can be displayed in several ways, depending on the type attribute.
+==============================================
+s1:Open code editor.
+s2:Create the doctype of webpage. e.g. <!doctype html>
+s3:Create Parent html tag e.g. <html> </html>
+s4:Create head tag inside html tag, e.g. <head> </head>
+s5:Create body tag after head tag closing, e.g. <body> </body>
+s6:Add title tag inside head, e.g. <title> </title>
+s7:Add meta tag inside head, e.g. <meta charset="utf-8">
+s7:Save page as index.html file on your system.
+s8:Double Click the file and your webpage is live on browser.
+s8:To edit webpage, right click on html file and select open in editor.
+==============================================
